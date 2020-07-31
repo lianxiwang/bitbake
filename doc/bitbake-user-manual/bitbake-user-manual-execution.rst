@@ -13,8 +13,8 @@ data, or simply return information about the execution environment.
 This chapter describes BitBake's execution process from start to finish
 when you use it to create an image. The execution process is launched
 using the following command form: $ bitbake target For information on
-the BitBake command and its options, see "`The BitBake
-Command <#bitbake-user-manual-command>`__" section.
+the BitBake command and its options, see ":ref:`The BitBake Command
+<bitbake-user-manual-command>`" section.
 
 .. note::
 
@@ -83,8 +83,9 @@ the environment variables and provides tight control over the shell
 execution environment. However, through the use of these first four
 variables, you can apply your control regarding the environment
 variables allowed to be used by BitBake in the shell during execution of
-tasks. See the "`Passing Information Into the Build Task
-Environment <#passing-information-into-the-build-task-environment>`__"
+tasks. See the
+":ref:`bitbake-user-manual/bitbake-user-manual-metadata:Passing Information Into the Build Task Environment`"
+
 section and the information about these variables in the variable
 glossary for more information on how they work and on how to use them.
 
@@ -114,8 +115,8 @@ Only variable definitions and include directives are allowed in BitBake
 ``.conf`` files. Some variables directly influence BitBake's behavior.
 These variables might have been set from the environment depending on
 the environment variables previously mentioned or set in the
-configuration files. The "`Variables
-Glossary <#ref-bb-variables-glos>`__" chapter presents a full list of
+configuration files. The ":ref:`bitbake-user-manual/bitbake-user-manual-ref-variables:Variables Glossary`"
+chapter presents a full list of
 variables.
 
 After parsing configuration files, BitBake uses its rudimentary
